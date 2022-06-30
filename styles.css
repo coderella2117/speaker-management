@@ -1,0 +1,141 @@
+.bg-electric-teal{
+    background-color: #00415c;
+}
+.bg-half-black{
+  background-color: rgba(0,0,0,.32);
+}
+.border-half-black{
+  border-color: rgba(0,0,0,.32);
+}
+.text-half-white, .text-white{
+  color: rgba(255,255,255,.9) !important;
+}
+.text-daisy-yellow{
+    color:#fff200;
+}
+.stroke-white{
+  stroke: white;
+}
+.fill-white{
+  fill: white;
+}
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+#up-next{
+    padding: 1em 1em;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.25);
+}
+p:first-letter {text-transform:capitalize;}
+.min-h-90{
+  min-height: 90vh;
+}
+div#player {
+	width: 40vw;
+	height: 30vh;
+	background: black;
+	display: block;
+}
+  
+  html {
+    font-family: "Roboto";
+    line-height: 1.4;
+  }
+  
+  @media (min-width: 600px) {
+    html {
+      font-size: 125%;
+    }
+  }
+  
+  button * {
+    pointer-events: none;
+  }
+  
+  /*******************
+   New Task
+   *******************/
+  
+  .todolist__new-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .new-task__input-group input[type="text"] {
+    line-height: 1;
+    border: 0;
+    width: 100%;
+    caret-color: white;
+  }
+  
+  .new-task__input-group input::placeholder {
+    color: white;
+  }
+  
+  .new-task__input-group input:focus {
+  }
+  
+  .todolist__new-task button {
+    display: flex;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    margin-left: 1rem;
+    padding: 0.75rem 1rem;
+    border: 0;
+    border-radius: 100%;
+    font-size: 0.75em;
+    line-height: 1.2;
+  }
+  
+  .todolist__new-task button > * + * {
+    margin-left: 0.35em;
+  }
+  
+  .todolist__new-task button > svg {
+    width: 0.8em;
+    fill: white;
+  }
+  
+  .todolist__new-task button:hover,
+  .todolist__new-task button:focus,
+  .todolist__new-task button:active {
+    color: rgba(255,255,255,.9);
+
+  }
+  
+  .todolist__new-task button:focus,
+  .todolist__new-task button:active {
+    outline: none;
+  }
+  
+  .todolist__new-task button:active {
+  }
+  
+  .todolist__new-task button[disabled] {
+  }
+  
+  .todolist__new-task + * {
+  }
+  
+  /*******************
+   Task List
+   *******************/
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 0;
+    border-radius: 0.375em;
+    color:white;
+    width: 100%;
+  }
+  .todolist__tasks{
+    width: 100%;
+   }
+  .task:hover {
+  }

@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <meta property="og:title" content="Lenka Kamenicky" />
+  <meta property="og:description" content="Spiritual Medium Lenka Kamenicky in Niagara Falls is ready to guide you on your journey" />
+  <meta property="og:image" content="https://www.believeinangelsandbeyond.com/media/ogg-banner.jpg" />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://www.believeinangelsandbeyond.com" />  
+  <meta property="og:type" content="business" />
+
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <title>Speaker Board</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+  <!-- Utilities Framework CSS -->
+  <link href="tailwind.clrs.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="h-auto w-full m-0 p-0 py-8 px-4 font-sans font-source subpixel-antialiased leading-normal sm:text-base md:text-base lg:text-base xl:text-lg bg-electric-teal text-daisy-yellow border-2 border-half-black">
+    <div id="main-container" class="w-full h-auto flex flex-row justify-start items-start px-4">
+      <div id="speaker-list" class="w-2/5 h-auto p-4 bg-half-black min-h-90 overflow-auto shadow-md" style="border-radius:0.375em;">
+        <h2 class="text-sm mb-4">HAUT-PARLEURS<BR><span class="italic">SPEAKERS</span></h2>
+        <form action="#" class="todolist" autocomplete="off">
+          <div class="todolist__new-task  border-b-2 border-white">
+            <div class="new-task__input-group ">
+              <input
+                type="text"
+                id="new-task"
+                name="new-task"
+                placeholder="Nom/Name"
+                class="newSpeaker bg-transparent outline-none text-white text-2xl"
+              />
+              <input
+                type="text"
+                id="topic"
+                name="topic"
+                placeholder="Sujet/Topic"
+                class="newTopic bg-transparent outline-none text-white text-2xl mt-2 mb-1"
+              />
+            </div>
+            <button type="submit" class="px-4 h-auto">
+              <svg viewBox="0 0 10 10" class="h-6 w-6">
+                <path d="M6 4h4v2H6v4H4V6H0V4h4V0h2z" fill-rule="nonzero" />
+              </svg>
+            </button>
+          </div>
+      
+          <ul class="todolist__tasks m-0 p-0 pr-2 w-full">
+          </ul>
+      
+        </form>      
+      </div>
+      <div id="right-column-container" class="w-3/5 h-auto pl-8">
+        <div id="up-next" class="w-full h-full bg-half-black min-h-90 overflow-auto shadow-md">
+          <h2 class="text-sm mb-4">SUIVANTE<br><span class="italic">NEXT</span></h2>
+          <div class="mt-8 mb-2 transition">
+            <p id="announcement-topic" class="normal-case text-2xl text-white mb-4 font-bold truncate transition"></p>
+            <p id="announcement-fr" class="normal-case text-2xl text-white transition">Personne ne parle.</p>
+            <p id="announcement-en" class="normal-case text-2xl text-white italic mb-2 transition">noone is speaking.</p>
+          </div>
+          <div class="mb-8 text-white">
+            <span class="timer"><span id="minutes">00</span>:<span id="seconds">00</span></span>
+          </div>
+          <button type="submit" class="next text-white outline-none hover:outline-none focus:outline-none mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+            </svg>
+          </button>
+          <div class="w-full mt-12">
+            <h2 class="text-sm mb-4">REMARQUES<br><span class="italic">NOTES</span></h2>
+            <textarea
+                id="notes"
+                name="notes"
+                rows="10" 
+                class="notes block bg-transparent outline-none text-half-white text-xs w-4/5"
+              />
+            </textarea>
+            <button type="submit" id="copy" class="text-white outline-none hover:outline-none focus:outline-none mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/1.0.7/purify.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
